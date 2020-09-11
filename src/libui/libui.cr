@@ -509,6 +509,7 @@ lib UI
     mouse_crossed : (AreaHandler*, Area*, LibC::Int -> Void)
     drag_broken : (AreaHandler*, Area* -> Void)
     key_event : (AreaHandler*, Area*, AreaKeyEvent* -> LibC::Int)
+    data : Void*
   end
 
   struct AreaKeyEvent
